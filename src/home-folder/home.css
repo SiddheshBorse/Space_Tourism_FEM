@@ -1,0 +1,39 @@
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+.left{
+    padding:25% 20% 0% 20%;
+}
+h2{
+    font-size: 200%;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    opacity: 0.6;
+}
+h1{
+    font-size: 1000%;
+    font-weight: 300;
+}
+p{
+    font-size: 130%;
+    margin-top: 10%;
+    letter-spacing: 0.1rem;
+}
+button{
+    height: 15rem;
+    width: 15rem;
+    border: none;
+    border-radius: 50%;
+    font-size: 300%;
+    text-transform: uppercase;
+}
+button:hover{
+    box-shadow: 0 0 4rem white;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    padding-top: 40%;
+}
