@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+.destipick{
+    color: white;
+    font-size: 200%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+.destipick span{
+    opacity: 0.5;
+    font-weight: 700;
+} 
+.ariv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.leftariv img{
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.rightariv{
+    color: white;
+    padding-right: 30%;
+}
+.arivmain{
+    font-size: 700%;
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    margin-top: 7%;
+}
+.arivdesc{
+    margin: 0;
+    padding: 0;
+    font-size: 150%;
+    opacity: 0.6;
+}
+.arivline{
+    height: 0.1rem;
+    background-color: white;
+    width: 100%;
+    margin-top: 10%;
+    opacity: 0.2;
+    margin-bottom: 7%;
+}
+.arivstats{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    font-size: 100%;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.stat{
+    font-size: 170%;
+    text-transform: uppercase;
+}
+.esttime{
+    margin-left: 20%;
+}

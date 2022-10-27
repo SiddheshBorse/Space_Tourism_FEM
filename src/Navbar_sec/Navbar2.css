@@ -1,0 +1,12 @@
+.desti{
+    padding: 0.5rem 0rem ;
+    margin: 0rem 1.5rem;
+}
+.links2{
+    margin-left: 50%;
+}
+.links2 a{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 100%;
+}

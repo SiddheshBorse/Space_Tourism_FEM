@@ -10,6 +10,11 @@ import { useState } from 'react'
 import background1 from './assets/crew/background-crew-desktop.jpg'
 import './App.css'
 import classNames from 'classnames'
+import Europa from './Destination/europa/Europa'
+import Mars from './Destination/mars/Mars'
+import Moon from './Destination/moon/Moon'
+import Titan from './Destination/titan/Titan';
+
 
 function App() {
   const [background, setBackground] = useState(1);
@@ -27,7 +32,12 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/crew' element={<Crew/>} />
-        <Route path='/destination' element={<Destination/>} />
+        <Route path='/destination' element={<Destination/>}>
+          <Route path='europa' element={<Europa/>}/>
+          <Route path='mars' element={<Mars/>}/>
+          <Route path='moon' element={<Moon/>} />
+          <Route path='titan' element={<Titan/>} />
+        </Route>
         <Route path='/technology' element={<Technology/>} />
         
       </Routes>
