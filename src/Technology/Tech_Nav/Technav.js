@@ -9,7 +9,6 @@ const Technav = () => {
                 <NavLink to='/technology/launch-vehicle'>1</NavLink>
                 <NavLink to='/technology/space-port'>2</NavLink>
                 <NavLink to='/technology/space-capsule'>3</NavLink>
-                
             </div>
         </div>
     )
