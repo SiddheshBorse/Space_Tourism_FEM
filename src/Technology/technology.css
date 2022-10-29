@@ -1,0 +1,39 @@
+.tech-title {
+    color: white;
+    font-size: 200%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+.tech-title span{
+    opacity: 0.5;
+        font-weight: 700;
+}
+.tech-details{
+    color: white;
+    width: 50%;
+}
+.tech-details h3{
+    font-size: 150%;
+    opacity: 0.6;
+}
+.tech-details h1{
+    font-size: 500%;
+}
+.tech-details p{
+    font-size: 170%;
+    opacity: 0.6;
+}
+.page-contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 0 4rem;
+    align-items: center;
+}
+.page-contents img{
+    width: 40%;
+}
+.technav{
+}

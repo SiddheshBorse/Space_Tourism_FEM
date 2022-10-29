@@ -16,38 +16,45 @@ import Commander from './Crew/Commander/Commander';
 import Engineer from './Crew/FEngineer/Engineer';
 import Specialist from './Crew/MSpecialist/Specialist';
 import Pilot from './Crew/Pilot/Pilot';
+import Lv from './Technology/Launch-Vehicle/Lv';
+import Sp from './Technology/Space-Port/Sp';
+import Sc from './Technology/Space-Capsule/Sc';
 
 
 function App() {
   const [background, setBackground] = useState(1);
   const appClass = classNames('app', 'background',
-  {
-    'background-home':background===1,
-    'background-destination': background === 2,
-    'background-crew': background === 3,
-    'background-technology': background === 4
-  })
-  
+    {
+      'background-home': background === 1,
+      'background-destination': background === 2,
+      'background-crew': background === 3,
+      'background-technology': background === 4
+    })
+
   return (
     <div className={appClass}>
-      <Navbar setBackground={setBackground}/>
+      <Navbar setBackground={setBackground} />
       <Routes>
-        <Route path='/' element={<Home />} setBackground={setBackground}/>
-        <Route path='/crew' element={<Crew/>}>
-          <Route path='commander' element={<Commander/>}/>
-          <Route path='engineer' element={<Engineer/>} />
-          <Route path='specialist' element={<Specialist/>} />
-          <Route path='pilot' element={<Pilot/>} />
+        <Route path='/' element={<Home />} setBackground={setBackground} />
+        <Route path='/crew' element={<Crew />}>
+          <Route path='commander' element={<Commander />} />
+          <Route path='engineer' element={<Engineer />} />
+          <Route path='specialist' element={<Specialist />} />
+          <Route path='pilot' element={<Pilot />} />
         </Route>
-        <Route path='/destination' element={<Destination/>}>
-          <Route path='europa' element={<Europa/>}/>
-          <Route path='mars' element={<Mars/>}/>
-          <Route path='moon' element={<Moon/>} />
-          <Route path='titan' element={<Titan/>} />
+        <Route path='/destination' element={<Destination />}>
+          <Route path='europa' element={<Europa />} />
+          <Route path='mars' element={<Mars />} />
+          <Route path='moon' element={<Moon />} />
+          <Route path='titan' element={<Titan />} />
         </Route>
-        <Route path='/technology' element={<Technology/>} />       
+        <Route path='/technology' element={<Technology />}>
+          <Route path='launch-vehicle' element={<Lv />} />
+          <Route path='space-capsule' element={<Sc />} />
+          <Route path='space-port' element={<Sp />} />
+        </Route>
       </Routes>
-    </div> 
+    </div>
   );
 }
 

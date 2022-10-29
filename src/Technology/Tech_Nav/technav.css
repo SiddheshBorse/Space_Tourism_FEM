@@ -1,0 +1,23 @@
+.technav{display: inline-block;}
+.technav a{
+    color: white;
+    text-indent: 0;
+    text-decoration: none;
+    border: 1px solid white;
+    /* padding: 2rem; */
+    margin-top: 1rem;
+    border-radius: 50%;
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bellefair', serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+ .technav .active{
+    background-color: white;
+    color: black;
+ }
