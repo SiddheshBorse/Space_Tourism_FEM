@@ -15,10 +15,12 @@ h2{
 h1{
     font-size: 1000%;
     font-weight: 300;
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
 }
 p{
     font-size: 130%;
-    margin-top: 10%;
+    margin-top: 0%;
     letter-spacing: 0.1rem;
 }
 button{

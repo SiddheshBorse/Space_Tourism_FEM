@@ -1,0 +1,54 @@
+.crewTitle {
+    color: white;
+    font-size: 200%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+.crewName{
+    height: auto;
+    width: 100%;
+}
+.crewTitle span {
+    opacity: 0.5;
+    font-weight: 700;
+}
+.person{
+    display: flex;
+    /* position: relative; */
+    color: white;
+    margin: 0;
+    padding-Right: 40%;
+    
+}
+.personLeft{
+    margin-left: 13%;
+    margin-top: 15%;
+}
+.personLeft h3{
+    font-size: 300%;
+    font-weight: 100;
+    font-family: 'Bellefair', serif;
+    opacity: 0.6;
+}
+.personLeft h1{
+    font-size: 400%;
+}
+.personRight img{
+    position: absolute;
+    bottom:0%;
+    height: 80%;
+    right:10%;
+}
+.personLeft p{
+    width: 70%;
+    opacity: 0.6;
+    margin-top: 3%;
+    font-size: 130%;
+}
+.dotstyle{
+    margin-top: 10%;
+    margin-left: 7%;
+}

@@ -1,6 +1,12 @@
 .desti{
     padding: 0.5rem 0rem ;
     margin: 0rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.firstnav{
+    margin: 0rem 1.5rem 0rem 0rem;
 }
 .links2{
     margin-left: 50%;
