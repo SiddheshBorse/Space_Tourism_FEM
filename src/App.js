@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Routes } from 'react-router'
+import { Outlet, Route, Routes } from 'react-router'
 import Home from './home-folder/Home'
 import Crew from './Crew/Crew';
 import Destination from './Destination/Destination';
@@ -54,6 +54,7 @@ function App() {
           <Route path='space-port' element={<Sp />} />
         </Route>
       </Routes>
+      <Outlet/>
     </div>
   );
 }
