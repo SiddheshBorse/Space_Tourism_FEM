@@ -2,7 +2,7 @@
   "name": "space_tourism_1.0",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://siddheshborse.github.io/Space_Tourism_FEM/",
+  "homepage": ".",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
     "@testing-library/jest-dom": "^5.16.5",
